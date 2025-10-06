@@ -110,3 +110,17 @@ nav a:hover {
   border: 1px solid #223;
   padding: 15px;
 }
+
+/* pricing */
+.pricing .card h3 {
+  margin: 0 0 5px;
+}
+
+.pricing .card p {
+  margin: 5px 0 10px;
+}
+
+.pricing .card ul {
+  margin: 0 0 10px;
+  padding-left: 16px;
+}
