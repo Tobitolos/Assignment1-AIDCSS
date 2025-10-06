@@ -1,0 +1,37 @@
+/* styles.css — very basic styles, separated from HTML */
+
+/* colors picked from the logo */
+:root {
+  --navy: #0a0033;   /* dark background */
+  --blue: #0072ff;   /* deep blue */
+  --cyan: #00c6ff;   /* light blue */
+  --ink: #eaf6ff;    /* pale text */
+}
+
+/* base */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--navy);
+  color: #fff;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: #fff;
+}
+
+.container {
+  width: 1000px;
+  max-width: 95%;
+  margin: 0 auto;
+}
