@@ -231,4 +231,25 @@ footer {
     font-size: 16px; /* avoid iOS zoom */
   }
 }
+
+/* hero */
+.hero {
+  background: var(--blue);
+  padding: 30px 0;
+}
+
+.hero h1 {
+  margin: 0 0 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 16px;
+  background: var(--cyan);
+  color: #000;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.btn:hover {
+  background: #00b0ff;
 }
