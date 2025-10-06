@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DaxPay — very basic page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container row">
+      <div class="logo">
+        <img src="daxpay logo.png" alt="DaxPay" height="60" width="80" />
+        <strong>DaxPay</strong>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Pay online with DaxPay</h1>
+      <p>Simple third-party payments for websites and apps.</p>
+      <a class="btn" href="#pricing">Get Started</a>
+    </div>
+  </section>
+
+  <section id="features" class="section">
+    <div class="container">
+      <h2>Features</h2>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Secure</h3>
+          <p>We try to keep your data safe.</p>
+        </div>
+        <div class="card">
+          <h3>Fast</h3>
+          <p>Payments go through quickly (usually).</p>
+        </div>
+        <div class="card">
+          <h3>Global</h3>
+          <p>Works in many countries.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="section pricing">
+    <div class="container">
+      <h2>Pricing</h2>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Basic</h3>
+          <p><strong>$0</strong> per month</p>
+          <ul>
+            <li>Test mode</li>
+            <li>Live keys</li>
+            <li>Email support</li>
+          </ul>
+          <a class="btn" href="#">Start</a>
+        </div>
+        <div class="card">
+          <h3>Pro</h3>
+          <p><strong>$19</strong> per month</p>
+          <ul>
+            <li>Lower fees</li>
+            <li>Chat support</li>
+            <li>Discount</li>
+          </ul>
+          <a class="btn" href="#">Upgrade</a>
+        </div>
+        <div class="card">
+          <h3>Enterprise</h3>
+          <p><strong>Custom</strong></p>
+          <ul>
+            <li>Volume pricing</li>
+            <li>Manager</li>
+            <li>SSO</li>
+          </ul>
+          <a class="btn" href="#">Contact Sales</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p class="muted">Kindly send us a message and we'll get back to you as soon as possible.</p>
+
+      <form class="contact-form" action="#" method="post">
+        <div class="grid-2">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="subject">Subject</label>
+          <input id="subject" name="subject" type="text">
+        </div>
+
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message"  required></textarea>
+        </div>
+
+        <label class="check">
+          <input type="checkbox" required> I agree to the terms & conditions
+        </label>
+
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">© 2025 DaxPay — class assignment1. Logo concept credit: LogoPond.</div>
+  </footer>
+</body>
+</html>
