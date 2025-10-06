@@ -171,3 +171,64 @@ footer {
   padding: 20px 0;
   font-size: 14px;
 }
+
+/* one tiny media query so it stacks on phones */
+/* Tablet */
+@media (max-width: 900px) {
+  .container {
+    width: 90%;
+  }
+
+  .row {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .grid-3 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Mobile */
+@media (max-width: 560px) {
+  header .row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 6px;
+  }
+
+  .hero {
+    padding: 24px 0;
+    text-align: left;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .grid-3,
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 12px;
+  }
+
+  input,
+  textarea,
+  select {
+    font-size: 16px; /* avoid iOS zoom */
+  }
+}
+}
